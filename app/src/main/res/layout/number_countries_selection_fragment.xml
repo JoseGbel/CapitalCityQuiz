@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/twentyCountriesBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="20 countries" />
+
+            <Button
+                android:id="@+id/fiftyCountriesBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="50 countries" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/oneHundredCountriesBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="100 countries" />
+
+            <Button
+                android:id="@+id/allCountriesBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="All countries" />
+        </TableRow>
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>

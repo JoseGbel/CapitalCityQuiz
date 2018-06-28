@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CapitalCityQuiz</string>
+    <string name="correctTxt">Correct</string>
+    <string name="enterBtn">Enter</string>
+    <string name="filePathCountries">raw://allcountries.csv</string>
+    <string name="gameOverBtn">Game Over</string>
+    <string name="gameOverTimer">Game Over!</string>
+    <string name="tryAgainBtn">Try Again!</string>
+    <string name="wellDoneTxt">Well Done!</string>
+    <string name="timerKey">Timer</string>
+    <string name="countryKey">Country</string>
+    <string name="listKey">List</string>
+    <string name="counterDownFlagKey">CounterDownFlag</string>
+
+    <string name="gameModeSelectionFragment">GameModeSelectionFragment</string>
+    <string name="oneOrMoreContinentSelectionSMFragment">oneOrMoreContinentSelectionSMFragment</string>
+    <string name="continentSelectionSMFragment">ContinentSelectionSMFragment</string>
+
+    <string name="europe">Europe</string>
+    <string name="africa">Africa</string>
+    <string name="southAmerica">SouthAmerica</string>
+    <string name="northAmerica">NorthAmerica</string>
+    <string name="australia">Australia</string>
+    <string name="asia">Asia</string>
+
+</resources>

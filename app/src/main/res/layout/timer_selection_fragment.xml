@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/tenSecondsBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="10 sec" />
+
+            <Button
+                android:id="@+id/twentySecondsBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="20 sec" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/thirtySecondsBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="30 sec" />
+
+            <Button
+                android:id="@+id/oneMinuteBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="1 min" />
+        </TableRow>
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>

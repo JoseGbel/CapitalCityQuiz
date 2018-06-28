@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/europeSMBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="Europe" />
+
+            <Button
+                android:id="@+id/africaSMBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="Africa" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/southAmericaSMBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="South America" />
+
+            <Button
+                android:id="@+id/northAmericaSMBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="North America" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/asiaSMBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="Asia" />
+
+            <Button
+                android:id="@+id/australiaSMBtn"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="Australia" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
